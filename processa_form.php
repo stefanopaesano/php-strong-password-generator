@@ -19,7 +19,7 @@
             
             $password_generata = randomPassword($lunghezza_password);
            
-            echo "<p>Password generata: $password_generata</p>";
+            echo "<p class='text-light'>Password generata: $password_generata</p>";
         } 
     }
 

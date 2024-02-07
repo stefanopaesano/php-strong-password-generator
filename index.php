@@ -10,18 +10,27 @@
 <body>
 
 
+<div class='container bg-primary'>
+        <form action="" method="GET">
+            <label class='text-light' for="lunghezza_password">crea la tua password sicura</label>
+            <input type="number" id="lunghezza_password" name="lunghezza_password" required>
+            <input type="submit" name="genera_password" value="Genera Password">
+        </form>
 
-<form action="" method="GET">
-    <label for="lunghezza_password">crea la tua password sicura</label>
-    <input type="number" id="lunghezza_password" name="lunghezza_password" required>
-    <input type="submit" name="genera_password" value="Genera Password">
-</form>
+        <?php
+        include 'processa_form.php';
+        ?>
 
-<?php
-include 'processa_form.php';
-?>
+</div>
+
+
+
 
 
 
 </body>
 </html>
+
+
+
+
